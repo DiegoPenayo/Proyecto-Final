@@ -1,0 +1,20 @@
+.FotoTexto{
+    text-align: center;
+}
+
+.FotoTexto__descripcion{
+    font-family: $fuentePedidos;
+    font-weight: 900;
+    width: map-get($ancho, 13 );
+    margin: 2rem auto;
+}
+
+.FotoTexto__pastelero{
+    width: map-get($ancho, 5 );
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.abuela{
+    font-family: $fuenteTitulo;
+    font-weight: 900;
+}

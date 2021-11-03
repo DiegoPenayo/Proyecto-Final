@@ -1,0 +1,18 @@
+.TituloContacto{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-family: $fuenteTitulo;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(104, 69, 42);
+    width: 40%;
+    top: 5px;
+    right: 0px;
+}
+
+.seguinos{
+    font-family: $fuenteMenu;
+    font-size:medium;
+    font-weight: 900;
+}

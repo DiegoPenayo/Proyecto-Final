@@ -1,0 +1,142 @@
+.menu{
+    width: 59%;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    height: 30px; 
+    padding: 10px;
+}
+
+.menu__list{
+    @include flexbox("", "","");
+    font-family: $fuenteMenu;
+    font-weight: 900;
+    font-size:large;
+    margin: 18px;
+    list-style: none;
+    padding: 0;
+    left: 40%;
+
+    &__item a{
+        display: block;
+        padding: 25px;
+        text-decoration: none;
+    }
+
+    &__item:hover{
+        background: rgb(189, 182, 235);
+        transition: all 1.5s
+    }
+
+    &__item a:hover{
+        color:$ColorMenuH2 ;
+        transition: all 1.5s
+    }
+
+    &__item__linkActive{
+        color: $ColorMenuH2;
+    }
+
+    &__item__fontMenu{
+        font-family: $fuenteMenu;
+        font-weight: 900;
+        font-size:large; 
+        color: indigo;
+    }
+
+    &__item__fontMenuContacto{
+        font-family: $fuenteMenu;
+        font-weight: 900;
+        font-size:large; 
+        color: $ColorMenuH2;
+    }
+}
+
+.Titulo{
+    @include flexbox("", "", center);
+    position: absolute;
+    font-family: $fuenteTitulo;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(104, 69, 42);
+    width: 40%;
+    top: -55px;
+    right: 0px;
+}
+
+.DescripcionDesayunos{
+    color: rgb(23, 52, 114);
+    text-align: center;
+    font-weight: 900;
+    font-family: $fuenteMenu;
+    font-size: large;
+}
+
+#DescripcionPrincipal{
+    font-family: $fuenteDescripconPrincipal;
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+    color: rgb(106, 26, 126);
+}
+
+#Servicios{
+    font-family: $fuentePrincipal;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(123, 24, 75);
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+    padding: 2rem;
+    text-align: center;
+}
+
+.Desayunos{
+    text-align: center;
+}
+
+#TituloDesayunos{
+    color: rgb(113, 97, 19);
+    font-family: $fuenteMenu;
+    font-weight:bolder;
+}
+
+.pedidos{
+    @include flexbox(row, space-evenly, "");
+    height: map-get($alto,2 );
+    width: map-get($ancho, 3);
+    margin-left: 28%;
+    padding: 40px 0px;
+
+    &__pedidosYa{
+        @include flexbox(column, center, center);
+        height: map-get($alto,2 );
+    }
+
+    &__imagenPedidos{
+        border-radius: 5%;
+    }
+
+    &__envios{
+        @include flexbox(column, center, center);
+        height: map-get($alto,2 );
+    }
+
+    &__Envios{
+        font-family: $fuentPedidos;
+        font-weight: 900;
+        text-align: center;
+    }
+
+}
+
+#Pedidos{
+    color: rgb(128, 0, 124);
+    font-family: $fuentPedidos;
+    font-weight: 900;
+    text-align:center;
+}

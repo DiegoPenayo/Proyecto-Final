@@ -1,0 +1,1028 @@
+@charset "UTF-8";
+.menu {
+  width: 59%;
+}
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  display: none;
+  height: 30px;
+  padding: 10px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+  -webkit-box-pack: "";
+      -ms-flex-pack: "";
+          justify-content: "";
+  -webkit-box-align: "";
+      -ms-flex-align: "";
+          align-items: "";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: large;
+  margin: 18px;
+  list-style: none;
+  padding: 0;
+  left: 40%;
+}
+
+.menu__list__item a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.menu__list__item:hover {
+  background: #bdb6eb;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.menu__list__item a:hover {
+  color: crimson;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.menu__list__item__linkActive {
+  color: crimson;
+}
+
+.menu__list__item__fontMenu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: large;
+  color: indigo;
+}
+
+.menu__list__item__fontMenuContacto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: large;
+  color: crimson;
+}
+
+.Titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "";
+          flex-direction: "";
+  -webkit-box-pack: "";
+      -ms-flex-pack: "";
+          justify-content: "";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  font-family: "Ephesis", cursive;
+  font-weight: 900;
+  font-size: 50px;
+  color: #68452a;
+  width: 40%;
+  top: -55px;
+  right: 0px;
+}
+
+.DescripcionDesayunos {
+  color: #173472;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+#DescripcionPrincipal {
+  font-family: "Josefin Sans", sans-serif;
+  width: 75%;
+  text-align: center;
+  margin-left: 12%;
+  color: #6a1a7e;
+}
+
+#Servicios {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #7b184b;
+  background: -webkit-gradient(linear, left top, right top, from(#c9d6ff), to(#e2e2e2));
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  padding: 2rem;
+  text-align: center;
+}
+
+.Desayunos {
+  text-align: center;
+}
+
+#TituloDesayunos {
+  color: #716113;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.pedidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: "";
+      -ms-flex-align: "";
+          align-items: "";
+  height: 250px;
+  width: 40%;
+  margin-left: 28%;
+  padding: 40px 0px;
+}
+
+.pedidos__pedidosYa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+}
+
+.pedidos__imagenPedidos {
+  border-radius: 5%;
+}
+
+.pedidos__envios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+}
+
+.pedidos__Envios {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+#Pedidos {
+  color: #80007c;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.FotoTexto {
+  text-align: center;
+}
+
+.FotoTexto__descripcion {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.FotoTexto__pastelero {
+  width: 70%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.abuela {
+  font-family: "Ephesis", cursive;
+  font-weight: 900;
+}
+
+.TituloProductos {
+  color: #f91010;
+}
+
+.slider {
+  width: 60%;
+  height: 550px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  width: 400%;
+  -webkit-animation: cambio 15s infinite alternate linear;
+          animation: cambio 15s infinite alternate linear;
+}
+
+.slider__list__item {
+  width: 100%;
+  list-style: none;
+}
+
+.slider__list__item__img {
+  width: 100%;
+  height: 70%;
+}
+
+@-webkit-keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 350px;
+  padding: 20px;
+  grid-gap: 10px;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gridItem {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.descripcionImagen {
+  color: silver;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  left: 0px;
+  bottom: -400px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 84%;
+  padding: 8%;
+}
+
+.gridItem:hover .descripcionImagen {
+  bottom: -22px;
+}
+
+.TituloContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Ephesis", cursive;
+  font-weight: 900;
+  font-size: 50px;
+  color: #68452a;
+  width: 40%;
+  top: 5px;
+  right: 0px;
+}
+
+.seguinos {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: 900;
+}
+
+.mapa {
+  width: 60%;
+  margin-left: 18%;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 25px;
+  }
+  .Titulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 50px;
+    color: #68452a;
+    width: 55%;
+    top: -50px;
+    left: 30%;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    font-size: 90%;
+  }
+  .gridItem:nth-child(5) {
+    -ms-grid-row: span 2;
+        grid-row-start: span 2;
+  }
+  h2 {
+    font-size: medium;
+  }
+  .Header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#d3cce3), to(#e9e4f0));
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    z-index: 100;
+    height: 105px;
+  }
+  .Header__icono {
+    width: 6%;
+  }
+  header label {
+    display: block;
+    top: 30px;
+  }
+  .menu {
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(#be93c5), to(#7bc6cc));
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+    width: 101%;
+    top: 100px;
+    margin-left: -120%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-align: center;
+  }
+  .menu__list__item:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .menu__list {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 21px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+  .pedidos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: "";
+        -ms-flex-align: "";
+            align-items: "";
+    height: 100px;
+    width: 40%;
+    margin-left: 28%;
+    padding: 30px 0px;
+  }
+  .pedidos__pedidosYa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+  }
+  .pedidos__imagenPedidos {
+    width: 100px;
+    height: 80px;
+  }
+  .pedidos__envios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+  }
+  #Servicios {
+    font-size: 30px;
+  }
+  .fotoDesayunos {
+    width: 100%;
+  }
+  .DescripcionDesayunos {
+    font-size: 90%;
+  }
+  .pedidos__imagenEnvios {
+    width: 100px;
+    height: 80px;
+  }
+  #Pedidos {
+    font-size: 90%;
+  }
+  .pedidos__Envios {
+    font-size: 90%;
+  }
+  /* Pestaña nosotros */
+  .FotoTexto__pastelero {
+    width: 90%;
+  }
+  .FotoTexto__descripcion {
+    font-size: 120%;
+  }
+  .abuela {
+    font-size: 140%;
+  }
+  .video {
+    width: 80%;
+  }
+  .slider {
+    height: 450px;
+    width: 95%;
+  }
+  /* Pestaña contacto */
+  .TituloContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 45px;
+    color: #68452a;
+    width: 60%;
+    top: 5px;
+    right: 10%;
+  }
+  .menu__list__item__fontMenu {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: indigo;
+  }
+  .menu__list__item__fontMenuContacto {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: crimson;
+  }
+  /* Pestaña Visitanos */
+  .mapa {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .Footer {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+  .Header {
+    height: 80px;
+  }
+  .Titulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 40px;
+    color: #68452a;
+    width: 75%;
+    top: -50px;
+    left: 20%;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    font-size: 90%;
+  }
+  h2 {
+    font-size: medium;
+  }
+  .logoContacto {
+    height: 60px;
+  }
+  .Header__icono {
+    width: 7%;
+  }
+  header label {
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(#be93c5), to(#7bc6cc));
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+    width: 101%;
+    top: 80px;
+    margin-left: -120%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-align: center;
+  }
+  .menu__list__item:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 21px;
+  }
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+  .pedidos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: "";
+        -ms-flex-align: "";
+            align-items: "";
+    height: 90px;
+    width: 40%;
+    margin-left: 28%;
+    padding: 40px 0px;
+  }
+  .pedidos__pedidosYa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90px;
+  }
+  .pedidos__imagenPedidos {
+    width: 100px;
+    height: 80px;
+  }
+  .pedidos__envios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90px;
+  }
+  /* Pestaña Nosotros */
+  .FotoTexto__pastelero {
+    width: 100%;
+  }
+  .FotoTexto__descripcion {
+    font-size: 120%;
+  }
+  .abuela {
+    font-size: 140%;
+  }
+  .video {
+    width: 100%;
+  }
+  /* Pestaña productos */
+  .slider {
+    height: 380px;
+    width: 95%;
+  }
+  /* Petaña contacto */
+  .TituloContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 35px;
+    color: #68452a;
+    width: 70%;
+    top: 0px;
+    right: 10%;
+  }
+  .menu__list__item__fontMenu {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: indigo;
+  }
+  .menu__list__item__fontMenuContacto {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: crimson;
+  }
+  #Servicios {
+    font-size: 25px;
+  }
+  .DescripcionDesayunos {
+    font-size: 90%;
+  }
+  .pedidos__imagenEnvios {
+    width: 100px;
+    height: 80px;
+  }
+  #Pedidos {
+    font-size: 90%;
+  }
+  .pedidos__Envios {
+    font-size: 90%;
+  }
+  /* Pestaña Visitanos */
+  .mapa {
+    width: 80%;
+    margin-left: 12%;
+  }
+  .Footer {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: smaller;
+  }
+  .logoContacto {
+    height: 53px;
+    border-radius: 10%;
+  }
+  .Header__icono {
+    width: 10%;
+  }
+  header label {
+    display: block;
+  }
+  .Header {
+    height: 90px;
+  }
+  .Titulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 32px;
+    color: #68452a;
+    width: 75%;
+    top: -30px;
+    left: 20%;
+  }
+  .menu {
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(#be93c5), to(#7bc6cc));
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+    width: 102%;
+    top: 98px;
+    margin-left: -120%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    text-align: center;
+  }
+  .menu li:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#83a4d4), to(#b6fbff));
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+  }
+  .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 15px;
+  }
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+  .pedidos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 190px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 40%;
+    margin-left: 28%;
+    padding: 40px 0px;
+  }
+  .pedidos__pedidosYa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150px;
+    padding: 30px;
+  }
+  .pedidos__envios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 90px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Pestaña productos */
+  .FotoTexto__descripcion {
+    font-size: medium;
+  }
+  .abuela {
+    font-size: medium;
+  }
+  .slider {
+    width: 100%;
+    height: 250px;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 250px;
+    font-size: 80%;
+  }
+  /* Petaña contacto */
+  .TituloContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Ephesis", cursive;
+    font-weight: 900;
+    font-size: 32px;
+    color: #68452a;
+    width: 80%;
+    top: 0px;
+    right: 1%;
+  }
+  .menu__list__item__fontMenu {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: indigo;
+  }
+  .menu__list__item__fontMenuContacto {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: crimson;
+  }
+  .DescripcionDesayunos {
+    font-size: 75%;
+  }
+  .pedidos__imagenEnvios {
+    width: 100px;
+    height: 80px;
+  }
+  #Pedidos {
+    font-size: 75%;
+  }
+  .pedidos__Envios {
+    font-size: 75%;
+  }
+  /* Pestaña visitanos */
+  .mapa {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .Footer {
+    font-size: 75%;
+  }
+}
+
+* {
+  padding: 0;
+}
+
+body {
+  color: indigo;
+  background: -webkit-gradient(linear, left top, right top, from(#d3cce3), to(#e9e4f0));
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h2 {
+  color: crimson;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+}
+
+h4 {
+  color: #3f03a7;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#d3cce3), to(#e9e4f0));
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  width: 100%;
+  z-index: 100;
+}
+
+.Footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wasaap {
+  position: fixed;
+  bottom: 6.3%;
+  right: 3%;
+}
+
+.wasaapVisitanos {
+  position: fixed;
+  bottom: 19.3%;
+  right: 3%;
+}
+/*# sourceMappingURL=mainCSS.css.map */

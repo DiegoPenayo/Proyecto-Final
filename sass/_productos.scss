@@ -1,0 +1,80 @@
+.TituloProductos{
+    color: rgb(249, 16, 16);
+}
+
+.slider {
+	width: map-get($ancho, 6 );
+    height: map-get($alto, 3 );
+	margin:auto;
+	overflow: hidden;
+
+    &__list {
+        display: flex;
+        padding: 0;
+        width: map-get($ancho, 7 );
+        animation: cambio 15s infinite alternate linear;
+    }
+
+    &__list__item {
+        width: map-get($ancho, 1 );
+        list-style: none;
+    }
+
+    &__list__item__img {
+        width: map-get($ancho, 1 );
+        height: map-get($alto, 4 );
+    }
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 350px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.imagen{
+    width: map-get($ancho, 1 );
+    height: map-get($alto, 5 );
+    object-fit: cover;
+}
+
+.gridItem{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.descripcionImagen{
+    color: silver;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    transition: all 0.3s;
+    position: absolute;
+    left:0px;
+    bottom:-400px;
+    background: rgba(0,0,0,0.7);
+    width: map-get($ancho, 8 );
+    padding: 8%;
+}
+
+.gridItem:hover .descripcionImagen{
+    bottom: -22px;
+}

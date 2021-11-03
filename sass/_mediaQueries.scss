@@ -1,0 +1,529 @@
+@media only screen and (max-width:1024px) {
+
+    h1{
+        font-size: 25px;
+    }
+    
+    .Titulo{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 50px;
+        color: rgb(104, 69, 42);
+        width: 55%;
+        top: -50px;
+        left: 30%;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        font-size: 90%;
+    }
+
+    .gridItem:nth-child(5) {
+        grid-row-start: span 2;
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+    .Header{
+        position:sticky;
+        top: 0;
+        background: $colorFondo;
+        z-index: 100;
+        height: map-get($alto,6 );
+    }
+
+    .Header__icono{
+        width: map-get($ancho, 10);
+    }
+    header label{
+        display: block;
+        top:30px;
+    }
+
+    .menu{
+        position: absolute;
+        background: linear-gradient(to right, #be93c5, #7bc6cc);
+        width: 101%;
+        top: 100px;
+        margin-left: -120% ;
+        transition: all 0.5s;
+        text-align:center;
+    }
+
+    .menu__list__item:hover{
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 1.5s;
+    }
+
+    .menu__list{
+        font-family: $fuenteMenuMobil;
+        font-size: 21px;
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin:0;
+    }
+
+    .pedidos{
+        @include flexbox(row, space-evenly,"");
+        height: map-get($alto,7 );
+        width: map-get($ancho, 3);
+        margin-left: 28%;
+        padding: 30px 0px;
+    }
+    
+    .pedidos__pedidosYa{
+        @include flexbox(column, center,center);
+        height: map-get($alto,7 );
+    }
+
+    .pedidos__imagenPedidos{
+        width: map-get($ancho, 12);
+        height: map-get($alto,16 );
+    }
+    
+    .pedidos__envios{
+        @include flexbox(column, center,center);
+        height: map-get($alto,7 );
+    }
+
+    #Servicios {
+        font-size: 30px;
+    }
+
+    .fotoDesayunos{
+        width: map-get($ancho, 1);
+    }
+
+    .DescripcionDesayunos{
+        font-size: 90%;
+    }
+
+    .pedidos__imagenEnvios{
+        width: map-get($ancho, 12);
+        height: map-get($alto,8 );
+    }
+
+
+    #Pedidos {
+        font-size: 90%;
+    }
+
+    .pedidos__Envios {
+        font-size: 90%;
+    }
+
+    /* Pestaña nosotros */
+
+    .FotoTexto__pastelero{
+        width: map-get($ancho, 13);
+    }
+    .FotoTexto__descripcion {
+        font-size:120%;
+    }
+
+    .abuela {
+        font-size: 140%;
+    }
+
+    .video{
+        width: map-get($ancho, 15);
+    }
+
+    .slider {
+        height: map-get($alto,9);
+        width: map-get($ancho, 14);
+    }
+
+    /* Pestaña contacto */
+
+    .TituloContacto{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 45px;
+        color: rgb(104, 69, 42);
+        width: 60%;
+        top: 5px;
+        right: 10%;
+    }
+
+    .menu__list__item__fontMenu{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:20px; 
+        color: indigo;
+    }
+
+    .menu__list__item__fontMenuContacto{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:20px; 
+        color: crimson;
+    }
+
+     /* Pestaña Visitanos */
+    .mapa{
+        width: map-get($ancho, 18);
+        margin-left: 10%;
+    }
+
+    .Footer {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    h1{
+        font-size: 25px;
+    }
+
+    .Header{
+        height: map-get($alto,16);
+    }
+
+    .Titulo{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 40px;
+        color: rgb(104, 69, 42);
+        width: 75%;
+        top: -50px;
+        left: 20%;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        font-size: 90%;
+    }
+    h2{
+        font-size: medium;
+    }
+
+    .logoContacto{
+        height: map-get($alto,10);
+    }
+
+    .Header__icono{
+        width: map-get($ancho, 16);
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: linear-gradient(to right, #be93c5, #7bc6cc);
+        width: map-get($ancho, 17);
+        top: 80px;
+        margin-left: -120% ;
+        transition: all 0.5s;
+        text-align: center;
+    }
+
+    .menu__list__item:hover{
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 1.5s;
+    }
+
+    .menu__list{
+        flex-direction: column;
+        font-size: 21px;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin:0;
+    }
+
+    .pedidos{
+        @include flexbox(row, space-evenly, "");
+        height: map-get($alto,11);
+        width: map-get($ancho, 20);
+        margin-left: 28%;
+        padding: 40px 0px;
+    }
+    
+    .pedidos__pedidosYa{
+        @include flexbox(column, center, center);
+        height: map-get($alto,11);
+    }
+
+    .pedidos__imagenPedidos{
+        width: map-get($ancho, 12);
+        height: map-get($alto,16);
+    }
+
+
+    .pedidos__envios{
+        @include flexbox(column, center, center);
+        height: map-get($alto,11);
+    }
+
+    /* Pestaña Nosotros */
+    .FotoTexto__pastelero{
+        width: map-get($ancho, 1);
+    }
+    .FotoTexto__descripcion {
+        font-size:120%;
+    }
+
+    .abuela {
+        font-size: 140%;
+    }
+
+    .video{
+        width: map-get($ancho, 1);
+    }
+
+    /* Pestaña productos */
+
+    .slider {
+        height: map-get($alto,12);
+        width: map-get($ancho, 14);
+    }
+
+    /* Petaña contacto */
+
+    .TituloContacto{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 35px;
+        color: rgb(104, 69, 42);
+        width: 70%;
+        top: 0px;
+        right: 10%;
+    }
+
+    .menu__list__item__fontMenu{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:20px; 
+        color: indigo;
+    }
+
+    .menu__list__item__fontMenuContacto{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:20px; 
+        color: crimson;
+    }
+
+    #Servicios {
+        font-size: 25px;
+    }
+
+    .DescripcionDesayunos{
+        font-size: 90%;
+    }
+
+    .pedidos__imagenEnvios{
+        width: map-get($ancho, 12);
+        height: map-get($alto,16 );
+    }
+
+
+    #Pedidos {
+        font-size: 90%;
+    }
+
+    .pedidos__Envios {
+        font-size: 90%;
+    }
+
+    /* Pestaña Visitanos */
+    .mapa{
+        width: map-get($ancho, 18);
+        margin-left: 12%;
+    }
+
+    .Footer {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: smaller;
+    }
+
+    .logoContacto{
+        height: map-get($alto,13);
+        border-radius: 10%;
+    }
+
+    .Header__icono{
+        width: map-get($ancho, 21);
+    }
+    header label{
+        display: block;
+    }
+
+    .Header{
+        height: map-get($alto,11 );
+    }
+
+    .Titulo{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 32px;
+        color: rgb(104, 69, 42);
+        width: 75%;
+        top: -30px;
+        left: 20%;
+    }
+
+    .menu{
+        position: absolute;
+        background: linear-gradient(to right, #be93c5, #7bc6cc);
+        width: map-get($ancho, 19);
+        top: 98px;
+        margin-left: -120% ;
+        transition: all 0.5s;
+        text-align: center;
+    }
+
+    .menu li:hover{
+        background: linear-gradient(to right, #83a4d4, #b6fbff);
+        transition: all 1.5s;
+    }
+
+    .menu__list{
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin:0;
+    }
+
+    .pedidos{
+        display: flex;
+        flex-direction:column;
+        height: 190px;
+        justify-content:space-evenly;
+        width: 40%;
+        margin-left: 28%;
+        padding: 40px 0px;
+    }
+    
+    .pedidos__pedidosYa{
+        @include flexbox(column, center, center);
+        height: 150px;
+        padding: 30px;
+    }
+    
+    .pedidos__envios{
+        display: flex;
+        flex-direction: column;
+        height: map-get($alto,11 );
+        justify-content: center;
+        align-items:center;
+    }
+
+    /* Pestaña productos */
+
+    .FotoTexto__descripcion {
+        font-size:medium;
+    }
+
+    .abuela {
+        font-size: medium;
+    }
+
+    .slider {
+        width: map-get($ancho, 1);
+        height: map-get($alto,2 );
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 250px;
+        font-size: 80%;
+    }
+
+    /* Petaña contacto */
+
+    .TituloContacto{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        font-family: $fuenteTitulo;
+        font-weight: 900;
+        font-size: 32px;
+        color: rgb(104, 69, 42);
+        width: 80%;
+        top: 0px;
+        right: 1%;
+    }
+
+    .menu__list__item__fontMenu{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:15px; 
+        color: indigo;
+    }
+
+    .menu__list__item__fontMenuContacto{
+        font-family: $fuenteMenuMobil;
+        font-weight: 900;
+        font-size:15px; 
+        color: $ColorMenuH2;
+    }
+
+    .DescripcionDesayunos{
+        font-size: 75%;
+    }
+
+    .pedidos__imagenEnvios{
+        width: map-get($ancho, 12);
+        height: map-get($alto,16 );
+    }
+
+    #Pedidos {
+        font-size: 75%;
+    }
+
+    .pedidos__Envios {
+        font-size: 75%;
+    }
+
+    /* Pestaña visitanos */
+
+    .mapa{
+        width: map-get($ancho, 1);
+        margin-left: 0%;
+    }
+
+    .Footer {
+        font-size: 75%;
+    }
+}
