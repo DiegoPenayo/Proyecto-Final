@@ -12,6 +12,24 @@ header label{
     padding: 10px;
 }
 
+li a{
+    position: relative;
+}
+
+li a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.2em;
+    width: 0%;
+    background-color: crimson;
+    transition:ease-in-out .5s;
+}
+
+li a:hover::after{
+    width: 73%;
+}
+
 .menu__list{
     @include flexbox("", "","");
     font-family: $fuenteMenu;
