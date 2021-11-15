@@ -69,6 +69,20 @@
         flex-direction: column;
     }
 
+    li a::after{
+        content: "";
+        position: absolute;
+        display: block;
+        height: 0.2em;
+        width: 0%;
+        background-color: crimson;
+        transition:ease-in-out .5s;
+    }
+    
+    li a:hover::after{
+        width: 92%;
+    }
+
     #btn-menu:checked ~ .menu{
         margin:0;
     }
