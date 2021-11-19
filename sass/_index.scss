@@ -111,16 +111,24 @@ li a:hover::after{
     background: linear-gradient(to right, #c9d6ff, #e2e2e2);
     padding: 2rem;
     text-align: center;
+    margin-bottom: 55px;
 }
 
 .Desayunos{
     text-align: center;
 }
 
+.fotoDesayunos{
+    width:90%;
+    border:solid 3px;
+    margin-bottom: 15px;
+}
+
 #TituloDesayunos{
     color: rgb(113, 97, 19);
     font-family: $fuenteMenu;
     font-weight:bolder;
+    margin-bottom: 55px;
 }
 
 .pedidos{
