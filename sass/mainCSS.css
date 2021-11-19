@@ -140,7 +140,7 @@ li a:hover::after {
   background: linear-gradient(to right, #c9d6ff, #e2e2e2);
   padding: 2rem;
   text-align: center;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 }
 
 .Desayunos {
@@ -157,7 +157,7 @@ li a:hover::after {
   color: #716113;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 }
 
 .pedidos {
@@ -178,6 +178,7 @@ li a:hover::after {
   width: 40%;
   margin-left: 28%;
   padding: 40px 0px;
+  margin-bottom: 20px;
 }
 
 .pedidos__pedidosYa {
@@ -237,6 +238,7 @@ li a:hover::after {
 
 .FotoTexto__descripcion {
   font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
   font-weight: 900;
   width: 90%;
   margin: 2rem auto;
@@ -250,6 +252,7 @@ li a:hover::after {
 
 .abuela {
   font-family: "Ephesis", cursive;
+  font-size: 30px;
   font-weight: 900;
 }
 

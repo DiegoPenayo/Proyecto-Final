@@ -111,7 +111,7 @@ li a:hover::after{
     background: linear-gradient(to right, #c9d6ff, #e2e2e2);
     padding: 2rem;
     text-align: center;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 .Desayunos{
@@ -128,7 +128,7 @@ li a:hover::after{
     color: rgb(113, 97, 19);
     font-family: $fuenteMenu;
     font-weight:bolder;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 .pedidos{
@@ -137,6 +137,7 @@ li a:hover::after{
     width: map-get($ancho, 3);
     margin-left: 28%;
     padding: 40px 0px;
+    margin-bottom: 20px;
 
     &__pedidosYa{
         @include flexbox(column, center, center);
